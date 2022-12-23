@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-vue-type-imports",
+  "name": "@rah-emil/vite-plugin-vue-type-imports",
   "version": "0.2.4",
   "author": "Jacob Clevenger <jacobrclevenger@gmail.com>",
   "license": "MIT",
