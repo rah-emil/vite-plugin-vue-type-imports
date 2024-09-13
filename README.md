@@ -13,7 +13,7 @@
 ## Install
 ```bash
 # Install Plugin
-npm i -D vite-plugin-vue-type-imports
+npm i -D @rah-emil/vite-plugin-vue-type-imports
 ```
 
 ```ts
@@ -21,7 +21,7 @@ npm i -D vite-plugin-vue-type-imports
 
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
-import VueTypeImports from 'vite-plugin-vue-type-imports'
+import VueTypeImports from '@rah-emil/vite-plugin-vue-type-imports'
 
 export default defineConfig({
   plugins: [
@@ -37,7 +37,7 @@ export default defineConfig({
 
 export default {
   buildModules: [
-    'vite-plugin-vue-type-imports/nuxt',
+    '@rah-emil/vite-plugin-vue-type-imports/nuxt',
   ]
 }
 ```

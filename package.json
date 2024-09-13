@@ -1,10 +1,10 @@
 {
-  "name": "vite-plugin-vue-type-imports",
-  "version": "0.2.4",
+  "name": "@rah-emil/vite-plugin-vue-type-imports",
+  "version": "0.2.5",
   "author": "Jacob Clevenger <jacobrclevenger@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/wheatjs/vite-plugin-vue-type-imports",
-  "bugs": "https://github.com/wheatjs/vite-plugin-vue-type-imports/issues",
+  "homepage": "https://github.com/rah-emil/vite-plugin-vue-type-imports",
+  "bugs": "https://github.com/rah-emil/vite-plugin-vue-type-imports/issues",
   "keywords": [],
   "exports": {
     ".": {
@@ -36,10 +36,6 @@
     "test:ui": "vitest --ui",
     "typecheck": "tsc -p tsconfig.test.json --noEmit",
     "coverage": "vitest run --coverage"
-  },
-  "peerDependencies": {
-    "vite": "^3.0.0",
-    "vue": "^2.7.0 || ^3.2.24"
   },
   "dependencies": {
     "@babel/types": "^7.19.0",
